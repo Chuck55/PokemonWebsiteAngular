@@ -116,7 +116,8 @@ app-top-bar h1 {
   background-color: #EEEEEE;
 }
 app-top-bar {
-  padding: 30px;
+  background-color: green;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

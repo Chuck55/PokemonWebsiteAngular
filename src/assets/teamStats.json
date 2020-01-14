@@ -28,5 +28,15 @@
     "pokemon5": "Solrock",
     "pokemon6": "Ferrothorn",
     "pokemonPicture": "assets/img/Team3.jpg"
+  },
+  {
+    "name": "Cancer Team",
+    "pokemon1": "Toxapex",
+    "pokemon2": "Lugia",
+    "pokemon3": "Suicune",
+    "pokemon4": "Blissey",
+    "pokemon5": "Shuckle",
+    "pokemon6": "Ferrothorn",
+    "pokemonPicture": "assets/img/Team4.jpg"
   }
 ]

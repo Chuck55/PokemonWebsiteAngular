@@ -25,21 +25,21 @@
 }
 .picture2 {
     position: relative;
-    width: 450px; /* you can use % */
+    width: 300px; /* you can use % */
     height: auto;
     left: 0px;
-    top: -100px;
+    top: -170px;
 }
 .picture {
     position: relative;
     width: 300px; /* you can use % */
     height: auto;
-    top: -50px;
-    left: 50px;
+    top: -120px;
+    left: 170px;
 }
 .header {
     position: relative;
-    left: 270px;
+    left: 350px;
     font-family: "AR CENA", open-sans, sans-serif;
     font-size: 1.9em;
     font-weight: 100;
