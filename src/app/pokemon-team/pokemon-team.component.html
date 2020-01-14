@@ -1,0 +1,19 @@
+<div *ngIf="pokemonChosen.length != 0">
+	<h3 class = "title_name">Team</h3>
+	<table>
+		<tr>
+			<div class = "pokemon_element" *ngFor="let pokemonChosens of pokemonChosen">
+				<th>
+					<span class = "header picture_name">{{ pokemonChosens.name }}
+						<img src = "{{ pokemonChosens.pokemonURL }}"  alt = "{{pokemonChosens.name}}"/>
+					</span>
+					<br>
+					<button class="shipping-item" (click)="removePokemon(pokemonChosens)"><div class = "center">Remove From Team</div></button>
+				<th>
+			</div>
+		</tr>
+	</table>
+</div>
+<div class="header center2" *ngIf="pokemonChosen.length == 0">
+	No Pokemon in the Team <br> Please Add Pokemon From the Shiny and Normal Pokemon Tabs
+</div>

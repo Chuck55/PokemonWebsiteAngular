@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Almighty Team",
+    "pokemon1": "Magikarp",
+    "pokemon2": "Magikarp",
+    "pokemon3": "Magikarp",
+    "pokemon4": "Magikarp",
+    "pokemon5": "Magikarp",
+    "pokemon6": "Magikarp",
+    "pokemonPicture": "assets/img/Team1.jpg"
+  },
+  {
+    "name": "Trash Team",
+    "pokemon1": "Groudon",
+    "pokemon2": "Kyogre",
+    "pokemon3": "Rayquaza",
+    "pokemon4": "Arceus",
+    "pokemon5": "Dialga",
+    "pokemon6": "Palkia",
+    "pokemonPicture": "assets/img/Team2.jpg"
+  },
+  {
+    "name": "Exploding Team",
+    "pokemon1": "Graveler",
+    "pokemon2": "Electrode",
+    "pokemon3": "Fortress",
+    "pokemon4": "Gigalith",
+    "pokemon5": "Solrock",
+    "pokemon6": "Ferrothorn",
+    "pokemonPicture": "assets/img/Team3.jpg"
+  }
+]

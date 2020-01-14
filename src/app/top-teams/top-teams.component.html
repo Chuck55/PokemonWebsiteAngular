@@ -1,0 +1,30 @@
+<h1 class="center2"> Top Teams</h1>
+<br>
+<br>
+<br>
+
+<div *ngFor="let team of topTeams | async">
+	<h2 class="header">
+		{{ team.name }}
+		<img class = "picture" src = "{{ team.pokemonPicture }}"  alt = "{{team.name}}"/>
+</h2>
+		<table class="pokemon_description border">
+			<tr>
+				<th>Pokemon 1</th>
+				<th>Pokemon 2</th>
+				<th>Pokemon 3</th>
+				<th>Pokemon 4</th>
+				<th>Pokemon 5</th>
+				<th>Pokemon 6</th>
+			</tr>
+			<tr>
+				<th>{{ team.pokemon1 }}</th>
+				<th>{{ team.pokemon2 }}</th>
+				<th>{{ team.pokemon3 }}</th>
+				<th>{{ team.pokemon4 }}</th>
+				<th>{{ team.pokemon5 }}</th>
+				<th>{{ team.pokemon6 }}</th>
+			</tr>
+		</table>
+		<br><br>
+</div>

@@ -1,0 +1,21 @@
+<main>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<h2>Shiny Pokemon</h2>
+
+<div *ngFor="let pokemon of pokemon; index as pokemonNumber">
+	<h3>
+		<div>
+			<a class="shipping-item" [title]="pokemon.name + ' details'"
+				[routerLink]="['/shinypokemon', pokemonNumber]">
+				{{ pokemon.name }}
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+	</h3>
+</div>
+</main>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

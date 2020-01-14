@@ -1,0 +1,20 @@
+.info_button{ 
+    margin-top: 1000px;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    color: blue;
+    border: none;
+}
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

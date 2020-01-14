@@ -1,0 +1,106 @@
+<div *ngIf="pokemons">
+	<div class="dropdown">
+		<button class="dropbtn">Navigation</button>
+		<div class="dropdown-content">
+			<a [routerLink]="['/shiny']">Back</a>
+			<a [routerLink]="['/shinypokemon', pokemons.pokemonId]">
+				Shiny Pokemon
+			</a>
+			<a href="{{ pokemons.BulbURL }}">{{ pokemons.name }} Information</a>
+		</div>
+	  </div>
+	<button class = "add_button" (click)="addToTeam(pokemons)"><div class = "center">Add To Team</div></button>
+	<h2 class="header center"> {{ pokemons.name }}</h2>
+	<table class="pokemon_description border">
+		<tr class="pokemon_row center">
+			<th>Type: </th>
+			<th colspan=4>{{ pokemons.type }} </th>
+		</tr>
+		<tr class="pokemon_row center">
+			<th>Generation: </th>
+			<th colspan=4>{{ pokemons.generation }} </th>
+		</tr>
+		<tr class="pokemon_row center">
+			<th> Description: </th>
+			<th colspan=4>{{ pokemons.description }} </th>
+		</tr>
+	</table>
+	<table class="pokemon_prevolution border">
+		<tr class="pokemon_row center">
+			<div *ngIf="pokemons.prevolutionOne != 'None' then NotNone1 else None1"></div>
+			<th>
+				<ng-template #NotNone1>
+					<div class="card">
+						Prevolution 1:
+						<a [title]="pokemons.prevolutionOne + ' details'"
+							[routerLink]="['/pokemon', pokemons.pokemonId-1]">
+							{{ pokemons.prevolutionOne }}
+						</a>
+					</div>
+				</ng-template>
+				<ng-template #None1>
+					<div class="card">
+						Prevolution 1: {{ pokemons.prevolutionOne }}
+					</div>
+				</ng-template>
+			</th>
+			<div *ngIf="pokemons.prevolutionTwo != 'None' then NotNone2 else None2"></div>
+			<th>
+				<ng-template #NotNone2>
+					<div class="card">
+						Prevolution 2:
+						<a [title]="pokemons.prevolutionTwo + ' details'"
+							[routerLink]="['/pokemon', pokemons.pokemonId-2]">
+							{{ pokemons.prevolutionTwo }}
+						</a>
+					</div>
+				</ng-template>
+				<ng-template #None2>
+					<div class="card">
+						Prevolution 2: {{ pokemons.prevolutionTwo }}
+					</div>
+				</ng-template>
+			</th>
+		</tr>
+	</table>
+	<table class="pokemon_evolution border">
+		<tr class="pokemon_row center">
+			<div *ngIf="pokemons.evolutionOne != 'None' then NotNone3 else None3"></div>
+			<th>
+				<ng-template #NotNone3>
+					<div class=card>
+						Evolution 1:
+						<a [title]="pokemons.evolutionOne + ' details'"
+							[routerLink]="['/pokemon', pokemons.pokemonId+1]">
+							{{ pokemons.evolutionOne }}
+						</a>
+					</div>
+				</ng-template>
+				<ng-template #None3>
+					<div class="card">
+						Evolution 1: {{ pokemons.evolutionOne }}
+					</div>
+				</ng-template>
+			</th>
+			<div *ngIf="pokemons.evolutionTwo != 'None' then NotNone4 else None4"></div>
+			<th>
+				<ng-template #NotNone4>
+					<div class="card">
+						Evolution 2:
+						<a [title]="pokemons.evolutionTwo + ' details'"
+							[routerLink]="['/pokemon', pokemons.pokemonId+2]">
+							{{ pokemons.evolutionTwo }}
+						</a>
+					</div>
+				</ng-template>
+				<ng-template #None4>
+					<div class="card">
+						Evolution 2: {{ pokemons.evolutionTwo }}
+					</div>
+				</ng-template>
+			</th>
+		</tr>
+	</table>
+	<img class = "picture2" src = "{{ pokemons.stats }}"  alt = "{{pokemons.stats}}"/>
+	<img class = "picture" src = "{{ pokemons.pokemonURL }}"  alt = "{{pokemons.name}}"/>
+</div>

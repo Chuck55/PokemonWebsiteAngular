@@ -1,0 +1,22 @@
+.header {
+    font-weight:bold;
+    font-size: 23px;
+    text-align: center;
+}
+.center2 {
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+.title_name {
+    position: relative;
+    left: 650px;
+}
+.pokemon_element {
+    position: relative;
+    left: 495px;
+}
+.picture_name {
+    position: relative;
+    left: 7px; 
+}

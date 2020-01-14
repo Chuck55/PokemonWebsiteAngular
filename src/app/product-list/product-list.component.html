@@ -1,0 +1,49 @@
+<main>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<h2>Normal Pokemon</h2>
+
+<div *ngFor="let pokemon of pokemon; index as pokemonNumber">
+	<h3>
+		<div>
+			<a class="shipping-item" [title]="pokemon.name + ' details'" [routerLink]="['/pokemon', pokemonNumber]">
+				{{ pokemon.name }}
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+	</h3>
+</div>
+</main>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+		<p *ngIf="pokemon.type == 'Rock'; then RockType; else OtherType"></p>
+
+		<ng-template #OtherType>
+			<ng-container *ngIf="pokemon.type == 'Electric'; then ElectricType; else MysteriousType"></ng-container>
+		</ng-template>
+
+		<ng-template #RockType>
+			<button class = "info_button" (click) = "WhatAreYouRamp()">
+          Type of Person You are
+        </button>
+			<app-pokemon-alerts [pokemon]="pokemon" (notify)="informRock()">
+			</app-pokemon-alerts>
+		</ng-template>
+
+		<ng-template #ElectricType>
+			<button class = "info_button" (click) = "WhatAreYouElec()">
+          Type of Person You are
+          </button>
+			<app-pokemon-alerts [pokemon]="pokemon" (notify)="informElec()">
+			</app-pokemon-alerts>
+		</ng-template>
+
+		<ng-template #MysteriousType>
+			<button class = "info_button" (click) = "WhatAreYouMyst()">
+          Type of Person You are
+          </button>
+			<app-pokemon-alerts [pokemon]="pokemon" (notify)="informMystery()">
+			</app-pokemon-alerts>
+		</ng-template>
+-->
