@@ -12,8 +12,12 @@ export class PokemonTeamComponent implements OnInit {
   ngOnInit() {
     this.pokemonChosen = this.pokemonService.getPokemon();
   }
-  removePokemon(pokemons) {
+  removePokemon(pokemons, index) {
     window.alert("{{pokemons.name}}");
-    this.pokemonService.removePokemon(pokemons);
+    this.pokemonService.removePokemon(pokemons, index);
+  }
+  removeAllPokemon() {
+    window.alert("{{pokemons.name}}");
+    this.pokemonChosen = this.pokemonService.clearTeam();
   }
 }

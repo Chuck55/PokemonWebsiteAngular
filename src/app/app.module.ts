@@ -4,6 +4,7 @@ import { RouterModule } from "@angular/router";
 import { ReactiveFormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
+import { TopBarPicComponent } from "./top-bar-pic/top-bar-pic.component";
 import { ProductListComponent } from "./product-list/product-list.component";
 import { PokemonAlertsComponent } from "./pokemon-alerts/pokemon-alerts.component";
 import { CommonModule } from "@angular/common";
@@ -38,6 +39,7 @@ import { AboutComponent } from "./about/about.component";
   declarations: [
     AppComponent,
     TopBarComponent,
+    TopBarPicComponent,
     ProductListComponent,
     PokemonAlertsComponent,
     PokemonDetailsComponent,

@@ -1,6 +1,6 @@
   <div *ngIf="shinypokemons">
 	<div class="dropdown">
-		<button class="dropbtn">Navigation</button>
+		<button class="button_coloring">Navigation</button>
 		<div class="dropdown-content">
 			<a [routerLink]="['/shiny']">Back</a>
 			<a [routerLink]="['/pokemon', shinypokemons.pokemonId]">
@@ -9,7 +9,7 @@
 			<a href="{{ shinypokemons.BulbURL }}">{{ shinypokemons.name }} Information</a>
 		</div>
 	  </div>
-	<button class = "add_button" (click)="addToTeam(shinypokemons)"><div class = "center">Add To Team</div></button>
+	<button class = "add_button button_coloring" (click)="addToTeam(shinypokemons)"><div class = "center white">Add To Team</div></button>
 	<h2 class="header center">{{ shinypokemons.name }}</h2>
 	<table class="pokemon_description border">
 		<tr class="pokemon_row center">
@@ -23,6 +23,10 @@
 		<tr class="pokemon_row center">
 			<th> Description: </th>
 			<th colspan=4>{{ shinypokemons.description }} </th>
+		</tr>
+		<tr class="pokemon_row center">
+			<th> Evolves by : </th>
+			<th colspan=4>{{ shinypokemons.evolves }} </th>
 		</tr>
 	</table>
 	<table class="pokemon_prevolution border">
@@ -101,6 +105,6 @@
 			</th>
 		</tr>
 	</table>
-	<img class = "picture2" src = "{{ shinypokemons.stats }}"  alt = "{{shinypokemons.name}}"/>
-	<img class = "picture" src = "{{ shinypokemons.pokemonURL }}"  alt = "{{shinypokemons.name}}"/>
+	<img class = "picture2 picture_size" src = "{{ shinypokemons.stats }}"  alt = "{{shinypokemons.name}}"/>
+	<img class = "picture picture_size" src = "{{ shinypokemons.pokemonURL }}"  alt = "{{shinypokemons.name}}"/>
 </div>

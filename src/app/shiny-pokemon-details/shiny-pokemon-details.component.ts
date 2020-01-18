@@ -6,7 +6,7 @@ import { PokemonService } from "../pokemon.service";
 @Component({
   selector: "app-shiny-pokemon-details",
   templateUrl: "./shiny-pokemon-details.component.html",
-  styleUrls: ["./shiny-pokemon-details.component.css"]
+  styleUrls: ["../pokemon-details/pokemon-details.component.css"]
 })
 export class ShinyPokemonDetailsComponent implements OnInit {
   shinypokemons;

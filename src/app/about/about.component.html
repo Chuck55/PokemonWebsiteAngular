@@ -1,1 +1,8 @@
-<div></div>
+<div class = "picture_size picture">
+    <h3> Guess The Pokemon </h3>
+    <div class = "border numberWins"> Number of Wins: {{numberOfWins}} </div>
+	<img src = "{{ currentPokemon.pokemonURL }}"  alt = "{{currentPokemon.name}}"/>
+        <br>
+    <input #box type="text" name="firstname" value="Pokemon's Name"><br>
+	<button (click)="checkName(box.value, currentPokemon)">check answer</button>
+</div>

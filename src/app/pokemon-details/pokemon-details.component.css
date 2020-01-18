@@ -8,7 +8,7 @@
 }
 .pokemon_evolution {
     position:relative;
-    left: 995px;
+    left: 975px;
     top: -120px;
 }
 .pokemon_prevolution {
@@ -24,18 +24,12 @@
     padding: 10px;
 }
 .picture2 {
-    position: relative;
-    width: 300px; /* you can use % */
-    height: auto;
     left: 0px;
     top: -170px;
 }
 .picture {
-    position: relative;
-    width: 300px; /* you can use % */
-    height: auto;
-    top: -120px;
-    left: 170px;
+    top: -80px;
+    left: 200px;
 }
 .header {
     position: relative;
@@ -52,22 +46,9 @@
 .add_button{
     position: relative;
     left: 1170px;
-    top: 10px;
-    width: 150px;
-    height: 40px;
-    color: white;
+    top: -50px;
     font-size: 16px;
     display: flex;
-    flex-direction: row;
-    background-color: #EEEEEE;
-}
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
   }
   
   .dropdown {

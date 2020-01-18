@@ -1,14 +1,15 @@
 <div *ngIf="pokemonChosen.length != 0">
 	<h3 class = "title_name">Team</h3>
 	<table>
+		<button class = "button_coloring" (click)="removeAllPokemon()"><div class = "white">Remove All From Team</div></button>
 		<tr>
-			<div class = "pokemon_element" *ngFor="let pokemonChosens of pokemonChosen">
+			<div class = "pokemon_element" *ngFor="let pokemonChosens of pokemonChosen; index as pokemonNumber">
 				<th>
 					<span class = "header picture_name">{{ pokemonChosens.name }}
 						<img src = "{{ pokemonChosens.pokemonURL }}"  alt = "{{pokemonChosens.name}}"/>
 					</span>
 					<br>
-					<button class="shipping-item" (click)="removePokemon(pokemonChosens)"><div class = "center">Remove From Team</div></button>
+					<button class="shipping-item" (click)="removePokemon(pokemonChosens, pokemonNumber)"><div class = "center">Remove From Team</div></button>
 				<th>
 			</div>
 		</tr>

@@ -24,11 +24,20 @@ export class PokemonService {
     this.pokemonChosen = [];
     return this.pokemonChosen;
   }
-  removePokemon(pokemon) {
-    this.pokemonChosen.splice(pokemon.pokemonId, 1);
-    console.log(this.pokemonChosen);
+  removePokemon(pokemon, index) {
+    console.log(index);
+      this.pokemonChosen.splice(index, 1);
+      console.log(this.pokemonChosen);
   }
   getTopTeams() {
     return this.http.get("/assets/teamStats.json");
+  }
+  checkName(pokemonName, pokemon) {
+    if (pokemonName.localeCompare(pokemon.name) == 0) {
+      return true;
+    } else {
+      return false
+    }
+
   }
 }

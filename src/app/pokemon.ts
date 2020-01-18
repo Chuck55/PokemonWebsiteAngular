@@ -11,7 +11,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidoran-f.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidoran♀_(Pok%C3%A9mon)",
-    stats: "assets/img/Nidoran-fStats.png"
+    stats: "assets/PokemonStats/Nidoran-fStats.png",
+    evolves: "LV 16",
   },
   {
     name: "Nidorina",
@@ -25,7 +26,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidorina.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
-    stats: "assets/img/NidorinaStats.png"
+    stats: "assets/PokemonStats/NidorinaStats.png",
+    evolves: "Moon Stone",
   },
   {
     name: "Nidoqueen",
@@ -39,7 +41,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidoqueen.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
-    stats: "assets/img/NidoqueenStats.png"
+    stats: "assets/PokemonStats/NidoqueenStats.png",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Nidoran",
@@ -53,7 +56,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidoran.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidoran♂_(Pok%C3%A9mon)",
-    stats: "assets/img/NidoranStats.png"
+    stats: "assets/PokemonStats/NidoranStats.png",
+    evolves: "LV 16",
   },
   {
     name: "Nidorino",
@@ -67,7 +71,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidorino.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
-    stats: "assets/img/NidorinoStats.png"
+    stats: "assets/PokemonStats/NidorinoStats.png",
+    evolves: "Moon Stone",
   },
   {
     name: "Nidoking",
@@ -81,7 +86,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Nidoking.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)",
-    stats: "assets/img/NidokingStats.png"
+    stats: "assets/PokemonStats/NidokingStats.png",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Voltorb",
@@ -95,7 +101,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Voltorb.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
-    stats: "assets/img/VoltorbStats.jpg"
+    stats: "assets/PokemonStats/VoltorbStats.jpg",
+    evolves: "LV 30",
   },
   {
     name: "Electrode",
@@ -109,7 +116,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Electrode.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
-    stats: "assets/img/ElectrodeStats.jpg"
+    stats: "assets/PokemonStats/ElectrodeStats.jpg",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Geodude",
@@ -123,7 +131,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Geodude.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
-    stats: "assets/img/GeodudeStats.png"
+    stats: "assets/PokemonStats/GeodudeStats.png",
+    evolves: "LV 25",
   },
   {
     name: "Graveler",
@@ -137,7 +146,8 @@ export const pokemon = [
     pokemonURL: "assets/img/Graveler.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
-    stats: "assets/img/GravelerStats.jpg"
+    stats: "assets/PokemonStats/GravelerStats.jpg",
+    evolves: "Traded",
   },
   {
     name: "Golem",
@@ -151,7 +161,56 @@ export const pokemon = [
     pokemonURL: "assets/img/Golem.png",
     generation: "First Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
-    stats: "assets/img/GolemStuff.jpg"
+    stats: "assets/PokemonStats/GolemStuff.jpg",
+    evolves: "Doesn't Evolve",
+  },
+  {
+    name: "Magnemite",
+    type: "Electric",
+    description: "A Small Magnet Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "Magneton",
+    evolutionTwo: "Magnezone",
+    pokemonId: 11,
+    pokemonURL: "assets/img/Magnemite.png",
+    generation: "First Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
+   stats: "assets/PokemonStats/MagnemiteStats.png",
+    evolves: "LV 30",
+  },
+  {
+    name: "Magneton",
+    type: "Electric",
+    description: "A Magnet Boi",
+    prevolutionOne: "Magnemite",
+    prevolutionTwo: "None",
+    evolutionOne: "Magnezone",
+    evolutionTwo: "None",
+    pokemonId: 12,
+    pokemonURL: "assets/img/Magneton.png",
+    generation: "First Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/MagnetonStats.png",
+    evolves: "Magnet Cave",
+  },
+  {
+    name: "Magnezone",
+    type: "Electric",
+    description: "A Big Magnet Boi",
+    prevolutionOne: "Magneton",
+    prevolutionTwo: "Magnemite",
+    evolutionOne: "None",
+    evolutionTwo: "None",
+    pokemonId: 13,
+    pokemonURL: "assets/img/Magnezone.png",
+    generation: "First Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Magnezone_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/MagnezoneStats.png",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Wynaut",
@@ -161,11 +220,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Wobuffet",
     evolutionTwo: "None",
-    pokemonId: 11,
+    pokemonId: 14,
     pokemonURL: "assets/img/Wynaut.png",
     generation: "Second Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)",
-    stats: "assets/img/WynautStats.jpg",
+    stats: "assets/PokemonStats/WynautStats.jpg",
+    evolves: "LV 15",
   },
   {
     name: "Wobuffet",
@@ -175,11 +235,44 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 12,
+    pokemonId: 15,
     pokemonURL: "assets/img/Wobuffet.png",
     generation: "Second Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Wobuffet_(Pok%C3%A9mon)",
-    stats: "assets/img/WobuffetStats.jpg",
+    stats: "assets/PokemonStats/WobuffetStats.jpg",
+    evolves: "Doesn't Evolve",
+  },
+  {
+    name: "Yanma",
+    type: "Bug",
+    description: "A Dragonfly Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "Yanmega",
+    evolutionTwo: "None",
+    pokemonId: 16,
+    pokemonURL: "assets/img/Yanma.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/YanmaStats.png",
+    evolves: "Doesn't Evolve",
+  },
+  {
+    name: "Yanmega",
+    type: "Bug",
+    description: "A Big Dragonfly Boi",
+    prevolutionOne: "Yanma",
+    prevolutionTwo: "None",
+    evolutionOne: "None",
+    evolutionTwo: "None",
+    pokemonId: 17,
+    pokemonURL: "assets/img/Yanmega.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/YanmegaStats.png",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Cranidos",
@@ -189,11 +282,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Rampardos",
     evolutionTwo: "None",
-    pokemonId: 13,
+    pokemonId: 18,
     pokemonURL: "assets/img/Cranidos.png",
     generation: "Fourth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon)",
-    stats: "assets/img/CranidosStats.png"
+    stats: "assets/PokemonStats/CranidosStats.png",
+    evolves: "LV 30",
   },
   {
     name: "Rampardos",
@@ -203,11 +297,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 14,
+    pokemonId: 19,
     pokemonURL: "assets/img/Rampardos.png",
     generation: "Fourth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)",
-    stats: "assets/img/RampardosStats.jpg"
+    stats: "assets/PokemonStats/RampardosStats.jpg",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Tynamo",
@@ -217,11 +312,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Elektrik",
     evolutionTwo: "Electross",
-    pokemonId: 15,
+    pokemonId: 20,
     pokemonURL: "assets/img/Tynamo.png",
     generation: "Fifth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Tynamo_(Pok%C3%A9mon)",
-    stats: "assets/img/TynamoStats.jpg"
+    stats: "assets/PokemonStats/TynamoStats.jpg",
+    evolves: "LV 39",
   },
   {
     name: "Elektrik",
@@ -231,11 +327,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Electross",
     evolutionTwo: "None",
-    pokemonId: 16,
+    pokemonId: 21,
     pokemonURL: "assets/img/Elektrik.png",
     generation: "Fifth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/eelektrik_(Pok%C3%A9mon)",
-    stats: "assets/img/ElektrikStats.jpg"
+    stats: "assets/PokemonStats/ElektrikStats.jpg",
+    evolves: "Thunder Stone",
   },
   {
     name: "Elektross",
@@ -245,12 +342,13 @@ export const pokemon = [
     prevolutionTwo: "Tynamo",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 17,
+    pokemonId: 22,
     pokemonURL: "assets/img/Elektross.png",
     generation: "Fifth Generation",
     BulbURL:
       "https://bulbapedia.bulbagarden.net/wiki/eelektross_(Pok%C3%A9mon)",
-    stats: "assets/img/ElektrossStats.jpg"
+    stats: "assets/PokemonStats/ElektrossStats.jpg",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Roggenrola",
@@ -260,12 +358,13 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Boldore",
     evolutionTwo: "Gigalith",
-    pokemonId: 18,
+    pokemonId: 23,
     pokemonURL: "assets/img/Roggenrola.png",
     generation: "Fifth Generation",
     BulbURL:
       "https://bulbapedia.bulbagarden.net/wiki/Roggenrola_(Pok%C3%A9mon)",
-    stats: "assets/img/RoggenrolaStats.png"
+    stats: "assets/PokemonStats/RoggenrolaStats.png",
+    evolves: "LV 25",
   },
   {
     name: "Boldore",
@@ -275,11 +374,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Gigalith",
     evolutionTwo: "None",
-    pokemonId: 19,
+    pokemonId: 24,
     pokemonURL: "assets/img/Boldore.png",
     generation: "Fifth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Boldore_(Pok%C3%A9mon)",
-    stats: "assets/img/BoldoreStats.png"
+    stats: "assets/PokemonStats/BoldoreStats.png",
+    evolves: "Traded",
   },
   {
     name: "Gigalith",
@@ -289,11 +389,12 @@ export const pokemon = [
     prevolutionTwo: "Roggenrola",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 20,
+    pokemonId: 25,
     pokemonURL: "assets/img/Gigalith.png",
     generation: "Fifth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Gigalith_(Pok%C3%A9mon)",
-    stats: "assets/img/GigalithStats.png"
+    stats: "assets/PokemonStats/GigalithStats.png",
+    evolves: "Doesn't Evolve",
   },
   {
     name: "Ferroseed",
@@ -303,11 +404,12 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "Ferrothorn",
     evolutionTwo: "None",
-    pokemonId: 21,
+    pokemonId: 26,
     pokemonURL: "assets/img/Ferroseed.png",
     generation: "Fifth Generation",
     BulbURL: "https://bulbapedia.bulbagarden.net/wiki/Ferroseed_(Pok%C3%A9mon)",
-    stats: "assets/img/FerroseedStats.png"
+    stats: "assets/PokemonStats/FerroseedStats.png",
+    evolves: "LV 40",
   },
   {
     name: "Ferrothorn",
@@ -317,14 +419,126 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 22,
+    pokemonId: 27,
     pokemonURL: "assets/img/Ferrothorn.png",
     generation: "Fifth Generation",
     BulbURL:
       "https://bulbapedia.bulbagarden.net/wiki/Ferrothorn_(Pok%C3%A9mon)",
-    stats: "assets/img/FerrothornStats.png"
+    stats: "assets/PokemonStats/FerrothornStats.png",
+    evolves: "Doesn't Evolve",
+  },  
+  {
+    name: "Sawk",
+    type: "Fighting",
+    description: "A Kungfu Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "None",
+    evolutionTwo: "None",
+    pokemonId: 28,
+    pokemonURL: "assets/img/Sawk.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Sawk_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/SawkStats.png",
+    evolves: "Doesn't Evolve",
   },
-  
+  {
+    name: "Throh",
+    type: "Fighting",
+    description: "A Judo Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "None",
+    evolutionTwo: "None",
+    pokemonId: 29,
+    pokemonURL: "assets/img/Throh.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Throh_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/ThrohStats.png",
+    evolves: "Doesn't Evolve",
+  },
+  {
+    name: "Sandile",
+    type: "Ground",
+    description: "A Smal Croc Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "Krokorok",
+    evolutionTwo: "Krookodile",
+    pokemonId: 30,
+    pokemonURL: "assets/img/Sandile.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Sandile_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/SandileStats.png",
+    evolves: "LV 29",
+  },
+  {
+    name: "Krokorok",
+    type: "Ground",
+    description: "A Croc Boi",
+    prevolutionOne: "Sandile",
+    prevolutionTwo: "None",
+    evolutionOne: "Krookodile",
+    evolutionTwo: "None",
+    pokemonId: 31,
+    pokemonURL: "assets/img/Krokorok.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Krokorok_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/KrokorokStats.png",
+    evolves: "LV 40",
+  },
+  {
+    name: "Krookodile",
+    type: "Ground",
+    description: "A Big Croc Boi",
+    prevolutionOne: "Krokorok",
+    prevolutionTwo: "None",
+    evolutionOne: "Sandile",
+    evolutionTwo: "None",
+    pokemonId: 32,
+    pokemonURL: "assets/img/Krookodile.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Krookodile_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/KrookodileStats.png",
+    evolves: "Doesn't Evolve",
+  },
+  {
+    name: "Pawniard",
+    type: "Dark",
+    description: "A Small Pointy Boi",
+    prevolutionOne: "None",
+    prevolutionTwo: "None",
+    evolutionOne: "Bisharp",
+    evolutionTwo: "None",
+    pokemonId: 33,
+    pokemonURL: "assets/img/Pawniard.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Pawniard_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/PawniardStats.png",
+    evolves: "LV 52",
+  },
+  {
+    name: "Bisharp",
+    type: "Dark",
+    description: "A Big Pointy Boi",
+    prevolutionOne: "Pawniard",
+    prevolutionTwo: "None",
+    evolutionOne: "None",
+    evolutionTwo: "None",
+    pokemonId: 34,
+    pokemonURL: "assets/img/Bisharp.png",
+    generation: "Fifth Generation",
+    BulbURL:
+    "https://bulbapedia.bulbagarden.net/wiki/Bisharp_(Pok%C3%A9mon)",
+    stats: "assets/PokemonStats/BisharpStats.png",
+    evolves: "Doesn't Evolve",
+  },
   {
     name: "Missingno",
     type: "Mystery",
@@ -333,10 +547,11 @@ export const pokemon = [
     prevolutionTwo: "None",
     evolutionOne: "None",
     evolutionTwo: "None",
-    pokemonId: 23,
+    pokemonId: 35,
     pokemonURL: "assets/img/Missingno.png",
-    generation: "First Generation"
-  }
+    generation: "First Generation",
+    evolves: "Doesn't Evolve",
+  },
 ];
 
 /*
