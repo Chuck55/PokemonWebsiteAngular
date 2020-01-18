@@ -4,17 +4,17 @@
     width: 450px;
     height: 150px;
     border-radius: 25px;
-    top: 20px;
+    top: -35px;
 }
 .pokemon_evolution {
     position:relative;
     left: 975px;
-    top: -120px;
+    top: -175px;
 }
 .pokemon_prevolution {
     position:relative;
     left: 0px;
-    top: -75px;    
+    top: -130px;    
 }
 .pokemon_row {
     white-space: nowrap;
@@ -25,15 +25,16 @@
 }
 .picture2 {
     left: 0px;
-    top: -170px;
+    top: -260px;
 }
 .picture {
-    top: -80px;
+    top: -170px;
     left: 200px;
 }
 .header {
     position: relative;
     left: 350px;
+    top: -55px;
     font-family: "AR CENA", open-sans, sans-serif;
     font-size: 1.9em;
     font-weight: 100;
