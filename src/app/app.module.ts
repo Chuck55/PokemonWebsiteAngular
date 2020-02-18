@@ -16,6 +16,7 @@ import { PokemonTeamComponent } from "./pokemon-team/pokemon-team.component";
 import { HttpClientModule } from "@angular/common/http";
 import { TopTeamsComponent } from "./top-teams/top-teams.component";
 import { AboutComponent } from "./about/about.component";
+import { PokemonGoLocationsComponent } from "./pokemon-go-locations/pokemon-go-locations.component";
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { AboutComponent } from "./about/about.component";
       },
       { path: "team", component: PokemonTeamComponent },
       { path: "top-teams", component: TopTeamsComponent },
-      { path: "about", component: AboutComponent }
+      { path: "about", component: AboutComponent },
+      { path: "pokemon-go-locations", component : PokemonGoLocationsComponent}
     ])
   ],
   declarations: [
@@ -47,7 +49,8 @@ import { AboutComponent } from "./about/about.component";
     ShinyPokemonDetailsComponent,
     PokemonTeamComponent,
     TopTeamsComponent,
-    AboutComponent
+    AboutComponent,
+    PokemonGoLocationsComponent
   ],
   bootstrap: [AppComponent],
   providers: [PokemonService]

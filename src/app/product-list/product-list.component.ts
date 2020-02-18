@@ -29,8 +29,16 @@ export class ProductListComponent {
   informElec() {
     window.alert("This pokemon is shocking");
   }
+  /*
+  showIt(id) {
+    $('#imageshow').on('', this.showIt);
+    var Url = document.getElementById('imageshow') as HTMLInputElement;
+    console.log(id);
+    Url.src=id;
+    Url.style.display='block';
+  }
+*/
 }
-
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
