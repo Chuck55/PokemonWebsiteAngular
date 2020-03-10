@@ -1,0 +1,39 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+    width: 100%;
+	float: left;
+	margin-bottom:15px;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+    padding: 8px;
+    height : 40px;
+}
+.main_header {
+	text-decoration : underline;
+	text-align : center;
+	border-radius: 25px;
+	padding: 10px; 
+}
+	
+.link_styles{
+  border-radius: 25px;
+  padding: 15px; 
+  border : solid;
+}
+.background_color{
+	background-color : #3399ff ;
+}
+
+#pokemon_Go tr:nth-child(even){
+  background-color:  #e0e0e0;
+  }
+
+#pokemon_Go td, #pokemon_Go th {
+  border: 1px solid #ddd;
+  padding: 8px;
+ }
