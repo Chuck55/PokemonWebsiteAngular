@@ -7,6 +7,7 @@ import { HttpClient } from "@angular/common/http";
 export class PokemonService {
   pokemonChosen = [];
   constructor(private http: HttpClient) {}
+  
   addToTeam(pokemon) {
     if (this.pokemonChosen.length == 6) {
       window.alert("Too many Pokemon, not added to team");
