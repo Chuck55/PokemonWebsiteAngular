@@ -12,7 +12,7 @@ export class PokemonFromFile implements OnInit {
   ngOnInit() {
   }
   stuff() {
-    console.log(data.Shiny);
+    //console.log(data.Shiny);
   }
 
 }
