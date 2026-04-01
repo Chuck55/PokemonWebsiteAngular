@@ -6,7 +6,8 @@
 <div *ngFor="let pokemon of pokemon; index as pokemonNumber">
 	<h3>
 		<div>
-			<a class="shipping-item"  onmouseover="showIt(pokemon.pokemonURL)" [title]="pokemon.name + ' details'" [routerLink]="['/pokemon', pokemonNumber]">
+			<!--onmouseover="showIt(pokemon.pokemonURL)"-->
+			<a class="shipping-item" [title]="pokemon.name + ' details'" [routerLink]="['/pokemon', pokemonNumber]">
 				{{ pokemon.name }}
 				<i class="fa fa-angle-right"></i>
 			</a>
