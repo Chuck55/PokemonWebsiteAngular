@@ -1,9 +1,11 @@
-import { Component } from "@angular/core";
+import { Component, NgModule} from "@angular/core";
+import { TopBarComponent } from "./top-bar/top-bar.component";
+import { TopBarPicComponent } from "./top-bar-pic/top-bar-pic.component";
+import { RouterModule } from "@angular/router";
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'app-',
+  imports: [Component],
 })
 export class AppComponent {}
 
